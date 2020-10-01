@@ -224,44 +224,27 @@ footer:after {
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
 }
+footer a:hover { text-decoration: underline; }
 
-footer a:hover {
-    text-decoration: underline;
-}
-
-.social ul li {
-    display: inline-block;
-
-}
+.social ul li { display: inline-block; }
 
 .social ul li a {
     display: block;
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
-    position: center;
-}
+    background-position: center;
+}}
 
-.twitter {
-    background-image: url("../img/twitter.svg") ;
-} 
-
-.facebook {
-    background-image: url("../img/facebook.svg") ;
-} 
-
-.instagram {
-    background-image: url("../img/instagram.svg") ;
-}  
-
-.pinterest {
-    background-image: url("../img/pinterest.svg") ;
-}
+.twitter { background-image: url('../img/twitter.svg'); }
+.facebook { background-image: url('../img/facebook.svg'); }
+.instagram { background-image: url('../img/instagram.svg'); }
+.pinterest { background-image: url('../img/pinterest.svg'); }
 
 .newsletter .link-header {
     font-size : 12px;
